@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", serif;
+}
+
+.header {
+    font-size: 20px;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.newdiv {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons {
+    width: 100px;
+    height: 100px;
+}
